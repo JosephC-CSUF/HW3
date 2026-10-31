@@ -9,7 +9,6 @@ function Button({onClick, children}) {
 
 function PreviousPage() {
     function handleClick(){
-        alert('Previous page');
     }
 
     return (
@@ -21,7 +20,7 @@ function PreviousPage() {
 
 function NextPage(){
     return(
-            <Button onClick={() => alert("Next Page")}>
+            <Button onClick={() => {}}>
                 Next
             </Button>
     );
